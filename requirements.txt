@@ -1,0 +1,11 @@
+behave==1.2.6               # Запуск .feature-сценариев и шагов
+selenium==4.20.0            # Управление браузером (Chrome, Firefox и др.)
+webdriver-manager==4.0.1    # Автоматическая установка chromedriver
+colorama==0.4.6             # Цветной вывод в терминале
+loguru==0.7.2               # Удобное логирование
+pytest==8.2.0               # (опционально) для запуска обычных unit-тестов
+pytest-html==4.0.2          # HTML-отчёты (если захочешь красиво)
+requests==2.32.2            # API-запросы (на будущее для интеграций)
+
+pip install -r requirements.txt
+
